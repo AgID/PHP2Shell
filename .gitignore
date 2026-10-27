@@ -1,0 +1,8 @@
+# Elenco di indirizzi IP per --ioc: resta locale, non va pubblicato
+ioc.txt
+*/ioc.txt
+
+# Log prodotti dagli script
+log/
+*/log/
+*.log

@@ -1,0 +1,14 @@
+# Elenco di indirizzi IP da cercare nei log con --ioc.
+#
+# Copiare questo file in ioc.txt (accanto allo script) oppure indicarlo con
+# --ioc-ip=/percorso/file. Un indirizzo IPv4 o IPv6 per riga; le righe vuote
+# e il testo dopo # vengono ignorati.
+#
+# Gli indirizzi vanno presi dalle proprie fonti di threat intelligence (CERT,
+# SOC, bollettini dei fornitori), rispettandone le regole di diffusione: per
+# questo ioc.txt è escluso dal repository (.gitignore).
+#
+# Esempi (indirizzi riservati alla documentazione, RFC 5737 / RFC 3849):
+# 192.0.2.10
+# 198.51.100.23
+# 2001:db8::1
