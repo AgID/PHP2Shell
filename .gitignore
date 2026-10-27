@@ -6,3 +6,6 @@ ioc.txt
 log/
 */log/
 *.log
+
+# File di metadati WSL/Windows (alternate data stream)
+*:Zone.Identifier
